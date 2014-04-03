@@ -106,40 +106,47 @@
 			<form>
 				<fieldset>
 					<legend>User Info</legend>
-					<div class="user-input">Email <input type="text"></div>
-					<div class="user-input">Display Name <input type="text"></div>
-					<div class="user-input">Website <input type="text"></div>
+					<div>Email<input class="user-input"type="text"></div>
+					<div>Display Name<input class="user-input" type="text"></div>
+					<div>Website <input class="user-input" type="text"></div>
 				</fieldset>
 			</form>
 			<h3 class="comment-section-title">
 				<fieldset>
 					<legend>Comment</legend>
-				</fieldset>
-			</h3>
-			<textarea name="user-comments" class="user-comment-input" class="body-image" cols="30" rows="10"></textarea>
-		</article>
-		<button class="submit-button body-image">Submit</button>
-		<section class="user-comments">
+				</h3>
+				<textarea name="user-comments" class="user-comment-input body-image" cols="30" rows="10"></textarea>
+			</article>
+			<button class="submit-button body-image">Submit</button>
+		</fieldset>
+
+		<section class="user-comments body-image">
 			<div class="col-1-user-comment">
 				<img class="user-pic" src="http://placehold.it/50x50">
 				<h4 class="user-info">
 					User 1
 				</h4>
 				<time>January 13, 2014</time>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, iusto, nesciunt illum dicta adipisci reiciendis aliquid voluptatem perspiciatis rem officiis.</p>
 			</div>
-			<div class="col-2-user-comment">
-				<img class="user-pic" src="http://placehold.it/50x50">
-				<h4 class="user-info">
-					User 1
-				</h4>
-				<time>January 13, 2014</time>
-			</div>
-			<div class="col-2-user-comment">
-				<img class="user-pic" src="http://placehold.it/50x50">
-				<h4 class="user-info">
-					User 3
-				</h4>
-				<time>January 13, 2014</time>
+
+			<div class="sub-comment-container">
+				<div class="col-2-user-comment">
+					<img class="user-pic" src="http://placehold.it/50x50">
+					<h4 class="user-info">
+						User 1
+					</h4>
+					<time>January 13, 2014</time>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, iusto, nesciunt illum dicta adipisci reiciendis aliquid voluptatem perspiciatis rem officiis.</p>
+				</div>
+				<div class="col-2-user-comment">
+					<img class="user-pic" src="http://placehold.it/50x50">
+					<h4 class="user-info">
+						User 3
+					</h4>
+					<time>January 13, 2014</time>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, iusto, nesciunt illum dicta adipisci reiciendis aliquid voluptatem perspiciatis rem officiis.</p>
+				</div>
 			</div>
 			<div class="col-1-user-comment">
 				<img class="user-pic" src="http://placehold.it/50x50">
@@ -147,6 +154,7 @@
 					User 2
 				</h4>
 				<time>January 13, 2014</time>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, iusto, nesciunt illum dicta adipisci reiciendis aliquid voluptatem perspiciatis rem officiis.</p>
 			</div>
 		</section>
 	</main>

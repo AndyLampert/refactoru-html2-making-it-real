@@ -34,10 +34,12 @@ html {
   margin: 0 auto;
   background-color: $htmlgrey;
   font-family: sans-serif;
+  margin-bottom: 2em;
 }
 
 body {
-  background-color: white;
+  background-color: $bodygrey;
+  padding-bottom: 1em;
 }
 
 .long-content {
@@ -57,7 +59,7 @@ body {
   background-color: #2ECC71;
   .site-title {
     position: relative;
-    color: white;
+    color: white; 
     bottom: -150px;
     left: 16px;
   }
@@ -232,14 +234,29 @@ fieldset {
 }
 
 .col-1-user-comment {
-  .user-info {
-    
-  }
 }
 
 .col-2-user-comment {
-  margin-left: 3em;
-  border-left: 1px solid grey;
   padding: 0 1em;
 }
 
+.sub-comment-container {
+  border-left: 1px solid grey;
+  margin-left: 3em;
+
+}
+
+.user-input {
+}
+
+.user-info {
+  padding-left: 4em;
+}
+
+input[type="text"] {
+  width: 60%;
+}
+
+time {
+  padding-left: 1em;
+}
